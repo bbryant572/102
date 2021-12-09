@@ -11,28 +11,43 @@
 </head>
 <body>
 
-    <nav>
+    <nav class="menu">
         <img class="big-logo" src="IMG/Big-Logo.png" alt="National Geographic">
         <img src="img/natgeo-small.png" alt="NatGeo Logo" class="small-logo">   
-        <a href="#">Login</a>
-        <a href="#"><i class="fas fa-search"></i></a>
-        <a href="#">Renew</a>
-        <a href="#">Subscribe</a>
-        <a href="#">Menu</a>
-        <a href="#"><i class="fas fa-angle-double-down"></i></a>
+
+        <div class="items">
+            <a class="login-item" href="#">Login</a>
+            <a class="search-item" href="#"><i class="fas fa-search"></i></a>
+            <a class="renew-item" href="#">Renew</a>
+            <a class="subs-item" href="#">Subscribe</a>
+            <a class="menu-item" href="#">Menu</a>
+            <a class="arrow-item" href="#"><i class="fas fa-angle-double-down"></i></a>
+        </div>
+        
     </nav>
 
     <header>
-        <h1>Latest Stories</h1>
-        <p>Subscribe for full access to read stories from National Geographic.</p>
+        <div class="main-header-container">
+            <div class="main-header">
+                <h1>Latest Stories</h1>
+            </div>
+            <div class="main-header-text">
+                <p> <span class="Subscribe">Subscribe</span> for full access to read stories from National <span class="Geo">Geographic.</span></p> 
+            </div>
+            <hr class="main-hr">
+        </div>
     </header>
 
     <main>
         <div class="main-news-container">
             <div class="main-news-item">
-                <h3>Science Coronavirus Coverage</h3>
-                <p>How COVID-19 Harms the Heart</p>
-                <a hreg="#" class="read-btn"><i class="fas fa-bars"></i> Read</a>
+                <img src="img/chestcovid.png" alt="covidchest">
+                <div class="main-news-text">
+                     <h3>Science Coronavirus Coverage</h3>
+                     <h4>How COVID-19 Harms the Heart</h4>
+                    <a hreg="#" class="read-btn"><i class="fas fa-bars"></i> Read</a>
+                </div>
+
             </div><!--main-news-item-->
         </div><!--main news container-->
         <div class="secondary-news-container">
